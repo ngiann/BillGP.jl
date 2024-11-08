@@ -1,5 +1,9 @@
 module BillGP
 
-# Write your package code here.
+    using JuliaDemoGP, Optim
+
+    include("optimisegp.jl")
+
+    export optimisegp
 
 end
